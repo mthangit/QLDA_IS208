@@ -22,7 +22,7 @@ Lịch phòng họp và đăng ký tài nguyên
 - Lịch phòng họp cho phép nhân viên xem các cuộc họp sắp tới và đăng ký các tài nguyên cần thiết cho cuộc họp, như phòng họp, thiết bị, dịch vụ hỗ trợ, vv...
 
 Công nghệ sử dụng
-Trang web được viết bằng ngôn ngữ lập trình Java và sử dụng Figma để xây dựng giao diện người dùng
+- Trang web được viết bằng ngôn ngữ lập trình Java và sử dụng Figma để xây dựng giao diện người dùng
 
 
 
