@@ -1,0 +1,44 @@
+[
+    {
+      "notiID": "TB1",
+      "notiTitle": "Thông báo Work From Home từ ngày 22/04/2023",
+      "notiDate": "20/04/2023",
+      "notiContent": "Trước những diễn biến khó lường của dịch bệnh COVID-19 và để đảm bảo an toàn cho toàn thể nhân viên, PING GROUP triển khai Work From Home.\nThời gian: từ ngày 22/04/2023 đến khi có thông báo mới.\nTrong thời gian thực hiện Work From Home, toàn thể nhân viên chú ý giữ gìn sức khỏe và tiếp tục nâng cao hiệu suất làm việc. Mọi công việc sẽ được trao đổi qua các nền tảng trực tuyến.",
+      "notiCover": "assets/images/thongbao/workfromhome-thongbao.jpg"
+    },
+    {
+      "notiID": "TB2",
+      "notiTitle": "Thông báo trở lại công ty từ ngày 25/04/2023",
+      "notiDate": "23/04/2023",
+      "notiContent": "Do tình hình dịch bệnh COVID-19 cơ bản đã được kiểm soát, PING GROUP thông báo đến toàn thể nhân viên quay trở lại công ty làm việc.\nThời gian: từ ngày 25/04/2023.\nKhi trở lại công ty làm việc, toàn thể nhân viên lưu ý thực hiện nghiêm túc thông điệp 5K của Bộ Y Tế. Nếu có triệu chứng, nhân viên tiếp tục làm việc ở nhà và thông báo cho Phòng Nhân sự để được hướng dẫn thêm.",
+      "notiCover": "assets/images/thongbao/backtowork-thongbao.jpg"
+    },
+    {
+      "notiID": "TB3",
+      "notiTitle": "Thông báo tham gia Hội thao ngày 29/04/2023",
+      "notiDate": "24/04/2023",
+      "notiContent": "Nhằm thúc đẩy phong trào thể dục thể thao, tinh thần rèn luyện sức khỏe của nhân viên, PING GROUP thông báo tổ chức Hội thao doanh nghiệp năm 2023.\nThời gian: 29/04/2023.\nĐịa điểm: Sân vận động trong nhà - Tòa nhà PING GROUP.\nNhân viên mong muốn tham gia vui lòng đăng ký trước bộ môn sẽ tham gia cho Phòng Nhân sự trước ngày 27/04/2023.\nRất hoan nghênh sự tham gia nhiệt tình của toàn thể nhân viên thuộc PING",
+      "notiCover": "assets/images/thongbao/hoithao-thongbao.jpg"
+    },
+    {
+      "notiID": "TB4",
+      "notiTitle": "Thông báo tổ chức Weekly Meeting ngày 27/04/2023",
+      "notiDate": "25/04/2023",
+      "notiContent": "Nhằm đánh giá công việc hàng tuần và triển khai kế hoạch cho tuần mới, PING GROUP thông báo tổ chức Weekly Meeting với thời gian và địa điểm cụ thể.\nThời gian: 8:00 ngày 29/04/2023.\nĐịa điểm: Phòng họp tầng 5 - Tòa nhà PING GROUP.\nThành phần tham gia: Ban Giám đốc, Phòng Nhân sự, Phòng Kế hoạch.\nĐề nghị các thành phần tham gia sắp xếp thời gian để tham dự cuộc họp đúng giờ.",
+      "notiCover": "assets/images/thongbao/weeklymeeting-thongbao.jpg"
+    },
+    {
+      "notiID": "TB5",
+      "notiTitle": "Thông báo tổ chức Team Building ngày 02/05/2023",
+      "notiDate": "27/04/2023",
+      "notiContent": "Nhằm củng cố tinh thần đoàn kết và sức khỏe tinh thần cho toàn thể nhân viên, PING GROUP thông báo tổ chức Team Building.\nThời gian: từ ngày 02/05/2023 đến ngày 03/05/2023.\nThời gian tập hợp: 6:00 ngày 02/05/2023.\nĐịa điểm tập hợp: Sảnh tòa nhà PING GROUP.\nThời gian khởi hành: 7:00 ngày 02/05/2023.\nĐịa điểm đến: Hồ Tràm Camping - Vũng Tàu.\nThành phần tham gia: Toàn thể nhân viên PING GROUP.",
+      "notiCover": "assets/images/thongbao/backtowork-thongbao.jpg"
+    },
+    {
+      "notiID": "TB6",
+      "notiTitle": "Thông báo lịch khám sức khỏe lần 1 năm 2023",
+      "notiDate": "05/05/2023",
+      "notiContent": "Thông báo cụ thể thời gian và địa điểm khám sức khỏe định kỳ lần 1 năm 2023 cho toàn thể nhân viên PING GROUP.\nThời gian: 8:00 ngày 06/05/2023.\nĐịa điểm: Phòng y tế (phòng F5.5)- Tòa nhà PING GROUP.\nThành phần: Toàn thể nhân viên PING GROUP.\nNhân viên đến khám sức khỏe vui lòng mang theo 02 tấm ảnh 3x4 và sổ khám sức khỏe (nếu có).",
+      "notiCover": "assets/images/thongbao/suckhoe-thongbao.jpg"
+    }
+  ]

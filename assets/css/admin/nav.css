@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --light-blue: #9ecae88a;
+    --antique-white: #fffcf8;
+    --dark-blue: #12679f;
+    --orange: #ec853b;
+	--light-orange: #edac7d;
+    --white: #fff;
+    --gray: #eee;
+    --dark-gray: #aaaaaa;
+    --black: #000000;
+    --black-gray: #373434;
+    --red: #e74c4c;
+	--light-red: #f3a8a8;
+	--darker-red: #ff4848;
+	--green: #46b779;
+}
+
+nav{
+    height: 56px;
+    background: var(--white);
+	padding: 0 24px;
+	display: flex;
+	align-items: center;
+	grid-gap: 24px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+nav a{
+    color: var(--black-gray);
+}
+
+nav ion-icon{
+    color: var(--black-gray);
+    cursor: pointer;
+}
+
+nav .nav-link{
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+nav .nav-link:hover{
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+nav form {
+	max-width: 400px;
+	width: 100%;
+	margin-right: auto;
+}
+
+nav form .form-input {
+	display: flex;
+	align-items: center;
+	height: 36px;
+	border: none;
+}
+
+nav form .form-input input {
+	flex-grow: 1;
+	padding: 0 16px;
+	height: 100%;
+	border-radius: 36px 0 0 36px;
+	outline: none;
+	border: none;
+	width: 100%;
+	color: var(--black-gray);
+}
+
+nav form .form-input button {
+	width: 36px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--light-blue);
+	color: var(--gray);
+	font-size: 18px;
+	border: none;
+	outline: none;
+	border-radius: 0 36px 36px 0;
+	cursor: pointer;
+}
+
+nav .noti {
+	position: relative;
+}
+
+nav .noti ion-icon{
+    font-size: 22px;
+}
+
+nav .noti .num {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid var(--gray);
+	background: var(--red);
+	color: var(--white);
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .profile img {
+	width: 36px;
+	height: 36px;
+	object-fit: cover;
+	border-radius: 50%;
+}

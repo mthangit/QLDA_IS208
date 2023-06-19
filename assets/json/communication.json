@@ -1,0 +1,26 @@
+[
+    {
+      "comID": "TT1",
+      "comTitle": "Chúc mừng sinh nhật Adam Smith",
+      "comDate": "16/02/2023",
+      "comType": "sinhnhat",
+      "comCover": "assets/images/truyenthong/birthday-truyenthong.jpg",
+      "comContent": "Mừng tuổi mới Adam Smith. Chúc bạn nhiều sức khỏe và có thật nhiều niềm vui trong cuộc sống.\nĐây là dịp để đánh dấu một năm tuổi mới và một cơ hội để thể hiện tiềm năng và tài năng của bạn. Hãy tiếp tục làm việc chăm chỉ và theo đuổi ước mơ của mình. Xin chúc bạn thành công trong mọi sự nỗ lực!"
+    },
+    {
+      "comID": "TT2",
+      "comTitle": "Chúc mừng Jolie Keels lên vị trí mới",
+      "comDate": "30/04/2023",
+      "comType": "vitrimoi",
+      "comCover": "assets/images/truyenthong/promotion-truyenthong.jpg",
+      "comContent": "Chúc mừng Jolie Keels vì những đóng góp to lớn cho sự phát triển của PING GROUP. Mong bạn sẽ tiếp tục phát huy vì tương lai rực rỡ hơn phía trước.\nĐây là một bước tiến quan trọng trong sự nghiệp của bạn. Hy vọng rằng bạn sẽ tận dụng cơ hội này để phát triển và thể hiện tốt nhất năng lực của mình. Một lần nữa, chúc bạn thành công trong vai trò mới!"
+    },
+    {
+      "comID": "TT3",
+      "comTitle": "Nhân viên xuất sắc tháng 04/2023 - Brittney Hooper",
+      "comDate": "01/05/2023",
+      "comType": "khenthuong",
+      "comCover": "assets/images/truyenthong/award-truyenthong.jpg",
+      "comContent": "Khen thưởng nhân viên xuất sắc nhất tháng 04 năm 2023 - Brittney Hooper.\nChúc mừng về thành tích xuất sắc trong tháng! Bạn đã làm việc với tận tâm và đạt được kết quả đáng ngưỡng mộ. Đó là một minh chứng rõ ràng về sự đóng góp của bạn và khả năng vượt qua mục tiêu. Chúng tôi rất tự hào về bạn và hy vọng bạn sẽ tiếp tục thành công trong tương lai."
+    }
+  ]

@@ -1,0 +1,37 @@
+[
+    {
+      "problemID": "PB1",
+      "problemDetail": "Cứu",
+      "problemSenderID": "NV5",
+      "problemDate": "27/04/2023",
+      "problemDepartmentID": "D1"
+    },
+    {
+      "problemID": "PB2",
+      "problemDetail": "Cứu",
+      "problemSenderID": "NV6",
+      "problemDate": "28/04/2023",
+      "problemDepartmentID": "D1"
+    },
+    {
+      "problemID": "PB3",
+      "problemDetail": "Cứu",
+      "problemSenderID": "NV7",
+      "problemDate": "29/04/2023",
+      "problemDepartmentID": "D2"
+    },
+    {
+      "problemID": "PB4",
+      "problemDetail": "Cứu",
+      "problemSenderID": "NV8",
+      "problemDate": "30/04/2023",
+      "problemDepartmentID": "D3"
+    },
+    {
+      "problemID": "PB5",
+      "problemDetail": "Cứu",
+      "problemSenderID": "NV9",
+      "problemDate": "01/05/2023",
+      "problemDepartmentID": "D4"
+    }
+  ]

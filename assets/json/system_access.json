@@ -1,0 +1,67 @@
+[
+    {
+      "sysEmail": "christinejonathan@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "alicejohnson@ping.group",
+      "sysPassword": 123,
+      "sysRole": "admin"
+    },
+    {
+      "sysEmail": "jasondepp@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "aionyhaust@ping.group",
+      "sysPassword": 123,
+      "sysRole": "admin"
+    },
+    {
+      "sysEmail": "toaheftiba@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "serhiyhipskyy@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "andreykeish@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "jonaskakaroto@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "martinnicollet@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "raphaelnast@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "chloemondoroe@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "janemichael@ping.group",
+      "sysPassword": 123,
+      "sysRole": "user"
+    },
+    {
+      "sysEmail": "kanghoon@ping.group",
+      "sysPassword": 123,
+      "sysRole": "admin"
+    }
+]

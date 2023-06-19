@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --white: #fff;
+    --black-navy: #162938;
+    --orange: rgb(236, 133, 59);
+    --blue: #1F628E;
+    --aqua: aqua;
+    --gray: #ececec;
+    --ash-gray: #9b9b9b;
+    --dark-blue: #12679f;
+}
+
+body{
+    margin-bottom: 60px;
+}

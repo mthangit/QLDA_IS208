@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản - PING GROUP</title>
+    <link rel="stylesheet" href="/css/user/account-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" 
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header"></div>
+    
+    <div class="account-container">
+        <div class="header-title">
+            <h1>Thông tin tài khoản</h1>
+        </div>
+        <div class="content">
+            <div class="profile-img">
+                <img src="/images/profile/christine-jonathan-profile.jpg" alt="Profile picture">
+            </div>
+            <form class="form">
+                <div class="label acc-name">
+                    <label>Họ tên</label>
+                    </br>
+                    <input type="text" id="fname" name="fname" value="Christine Jonathan" disabled>
+                </div>
+                <div class="label acc-dob">
+                    <label>Ngày sinh</label>
+                    </br>
+                    <input type="text" id="fdob" name="fdob" value="23/08/1999" disabled>
+                </div>
+                <div class="label acc-cid">
+                    <label>CMND/CCCD</label>
+                    </br>
+                    <input type="text" id="fcid" name="fcid" value="272944111" disabled>
+                </div>
+                <div class="label acc-phone">
+                    <label>Số điện thoại</label>
+                    </br>   
+                    <input type="text" id="ufphone" name="ufdob" value="0123456789">
+                </div>
+                <div class="label acc-email">
+                    <label>Email</label>
+                    </br>
+                    <input type="email" id="femail" name="femail" value="christinejonathan@ping.group" disabled>
+                </div>
+                <div class="label acc-department">
+                    <label>Phòng ban</label>
+                    </br>
+                    <input type="text" id="fdepartment" name="fdepartment" value="Finance" disabled>
+                </div>
+                <div class="label acc-position">
+                    <label>Chức vụ</label>
+                    </br>
+                    <input type="text" id="fposition" name="fposition" value="Senior Manager" disabled>
+                </div>
+                <button onclick="history.go(0)"class="btn cancel">Cancel</button>
+                <button type="submit" class="btn update">Update</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/user/activate-header-footer.js"></script>
+    
+</body>
+</html>

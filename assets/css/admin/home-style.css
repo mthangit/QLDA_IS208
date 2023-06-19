@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --light-blue: #9ecae88a;
+    --antique-white: #fffcf8;
+    --dark-blue: #12679f;
+    --orange: #ec853b;
+	--light-orange: #edac7d;
+    --white: #fff;
+    --gray: #eee;
+    --dark-gray: #aaaaaa;
+    --black: #000000;
+    --black-gray: #373434;
+    --red: #e74c4c;
+	--light-red: #f3a8a8;
+	--darker-red: #ff4848;
+	--green: #46b779;
+}
+
+#content{
+    position: relative;
+    width: calc(100% - 280px);
+    left: 280px;
+    transition: 0.3s ease;
+}
+
+#content .box-info .divider{
+	font-size: 30px;
+  	display: flex;
+  	align-items: center;
+	padding: 30px;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-weight: 650;
+	color: var(--dark-blue);
+}
+
+#content .box-info .divider::after {
+	flex: 1;
+	content: '';
+	padding: 3px;
+	background-color: var(--light-blue);
+	margin-left: 20px;
+}
+
+#content .box-info .box {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 24px;
+	margin-top: 10px;
+}
+#content .box-info .box li {
+	padding: 24px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	grid-gap: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#content .box-info .box li ion-icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content .box-info .box li:nth-child(1){
+	color: var(--dark-blue);
+	border: 3px solid var(--dark-blue);
+	box-shadow: 0 7px 15px var(--dark-gray);
+}
+#content .box-info .box li:nth-child(2){
+	color: var(--darker-red);
+	border: 3px solid var(--darker-red);
+	box-shadow: 0 7px 15px var(--dark-gray);
+}
+#content .box-info .box li:nth-child(3){
+	color: var(--green);
+	border: 3px solid var(--green);
+	box-shadow: 0 7px 15px var(--dark-gray);
+}
+#content .box-info .box li .text h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--black-gray);
+	line-height: 35px;
+}
+#content .box-info .box li .text p {
+	color: var(--black-gray);	
+}
+
+#content .charts {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 28px;
+}
+
+#content .chart{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px var(--dark-gray);
+    width: 100%;
+	text-align: center;
+	font-size: 15px;
+	color: var(--dark-blue);
+}

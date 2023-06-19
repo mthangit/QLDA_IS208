@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --white: #fff;
+    --black-navy: #162938;
+    --orange: rgb(236, 133, 59);
+    --blue: #1F628E;
+    --aqua: aqua;
+}
+
+body{
+    background: url("/assets/images/home/cocautochuc-background-home.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.organizational-structure{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+.organizational-structure img{
+    width: 760px;
+    height: 681px;
+}

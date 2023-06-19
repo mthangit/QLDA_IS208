@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --blue: #2277cc;
+    --light-blue: #9ecae88a;
+    --antique-white: #fffcf8;
+    --dark-blue: #12679f;
+    --orange: #ec853b;
+	--light-orange: #edac7d;
+    --white: #fff;
+    --gray: #eee;
+    --dark-gray: #aaaaaa;
+    --black: #000000;
+    --black-gray: #373434;
+    --red: #e74c4c;
+	--light-red: #f3a8a8;
+	--darker-red: #ff4848;
+    --green: #38ba61;
+}
+body{
+    margin-bottom: 60px;
+}
+
+#content{
+    position: relative;
+    width: calc(100% - 280px);
+    left: 280px;
+    transition: 0.3s ease;
+}
+
+#content .container{
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#content .title{
+	font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+form input, textarea{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    outline-color: var(--blue);
+    margin-top: 8px;
+}
+
+form textarea{
+    text-align: justify;
+}
+
+form .label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form div{
+    margin-top: 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--white);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn:hover{
+    opacity: 80%;
+}
+
+.cancel{
+    background: var(--dark-gray);
+    margin-right: 50px;
+}
+
+.add{
+    background: var(--orange);
+}
+

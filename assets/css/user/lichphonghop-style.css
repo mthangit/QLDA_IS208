@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+:root{
+  --white: #fff;
+  --black-navy: #162938;
+  --orange: rgb(236, 133, 59);
+  --blue: #1F628E;
+  --aqua: aqua;
+  --gray: #ececec;
+  --ash-gray: #9b9b9b;
+  --light-blue: #e2f2ff;
+}
+
+body{
+  margin-top: 110px;
+  height: 100%;
+  background: url("/assets/images/lichphonghop/background-meetingroom.png") no-repeat;
+  background-size: contain;
+}
+
+.content{
+  margin-bottom: 40px;
+}
+
+.wrapper{
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.registration{
+  background: var(--white);
+  box-shadow: 0px 7px 14px 0px var(--gray);
+  padding: 50px;
+  border-radius: 10px;
+  margin: 80px 20px 20px 20px;
+}
+
+.title{
+  text-align: center;
+  color: var(--blue);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.registration .title h5{
+  color: var(--orange);
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.registration .title span{
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+form.register input{
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  outline-color: var(--blue);
+  margin-top: 8px;
+}
+
+#save{
+  background: var(--blue);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#save:hover{
+  opacity: 80%;
+}
+
+#data{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data th{
+  font-weight: 600;
+  background: var(--blue);
+  opacity: 80%;
+  color: var(--white);
+}
+
+#data td, th{
+  border: 1px solid var(--blue);
+  padding: 10px;
+}
+
+#data tr:nth-child(even){
+  background: var(--gray);
+}
+
+#data tr:hover{
+  background: var(--light-blue);
+}
+
+#data tbody{
+  text-align: center;
+}

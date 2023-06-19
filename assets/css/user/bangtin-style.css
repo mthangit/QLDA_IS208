@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+:root{
+    --white: #fff;
+    --black-navy: #162938;
+    --orange: rgb(236, 133, 59);
+    --blue: #1F628E;
+    --aqua: aqua;
+    --gray: #ececec;
+    --ash-gray: #9b9b9b;
+}
+
+body{
+    min-height: 100vh;
+    justify-content: center; 
+    align-items: center;
+}
+
+.bangtin-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background: url('/assets/images/home/thongbao-background-home.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+}
+
+.bangtin-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.bangtin-heading h2{
+    font-size: 2rem;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.bangtin-heading h4{
+    font-weight: 200;
+}
+
+.bangtin-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.bangtin-box{
+    width: 350px;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bangtin-img{
+    width: 100%;
+    height: auto;
+}
+
+.bangtin-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bangtin-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bangtin-box span{
+    color: var(--orange);
+    font-size: 0.9rem;
+}
+
+.bangtin-text .bangtin-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--blue);
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.bangtin-text .bangtin-title:hover{
+    color:var(--orange);
+    transition: all ease 0.3s ;
+}
+
+.bangtin-text p{
+    color: var(--ash-gray);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 15px 0px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.bangtin-text a{
+    color: var(--black-navy);
+    word-spacing: 2px;
+    text-decoration: none;
+}
+
+.bangtin-text a:hover{
+    color:var(--orange);
+    transition: all ease 0.3s;
+}
